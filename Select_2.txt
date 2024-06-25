@@ -1,0 +1,20 @@
+-- database: d:\Projekt\movies.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM movies;
+SELECT * FROM Movies;
+SELECT name, rating FROM Movies;
+SELECT DISTINCT year FROM Movies;
+SELECT name, genre FROM Movies 
+WHERE year = 2020;
+select * from Movies 
+WHERE name IN ('Forrest Gump','It');
+select * from Movies 
+WHERE name NOT IN ('Forrest Gump','It');
+SELECT name FROM Movies
+where year > 2020 AND genre not in 'horror';
+select name,year from movies
+order by rating asc;
+select name,rating from movies
+order by genre asc;

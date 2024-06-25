@@ -1,0 +1,6 @@
+-- database: d:\Projekt\movies.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM movies;
+INSERT INTO movies(name,year,rating,genre) VALUES ('Speed',2012,8.0,'action')

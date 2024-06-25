@@ -1,0 +1,11 @@
+-- database: d:\Projekt\Database_first\base.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+SELECT * FROM Videos;
+select name, rating FROM Videos;
+SELECT DISTINCT year FROM Videos;
+SELECT name, genre  FROM Videos WHERE year=2020;
+SELECT * FROM Videos WHERE name ;
+SELECT * FROM Videos WHERE name NOT IN('Forrest Gump', 'It');
+SELECT * FROM Videos WHERE year>2020 AND GENRE!= 'horor';
